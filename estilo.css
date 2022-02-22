@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	}
+
+body {
+	font-family: "Andale Mono", Andale, monospace;
+	font-size: 16px;
+}
+
+/*Layout do Topo*/
+#topo{
+	background: url(imagens/map.jpg) no-repeat center;
+	background-size: 50%;
+	width: 920px;
+	height: 300px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+
+#topo h1{
+	color: #191970;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 90px;
+}
+
+/*Formatação Menu*/
+
+#menu {
+	padding: 0;
+	text-align: center;
+}
+
+#menu a {
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#menu a:link, a:visited {
+	color: #191970;
+	padding: 8px 12px;
+}
+
+#menu a:hover {
+	color: #CD5C5C;
+}
+
+/*Formatação Conteudo*/
+
+#principal{
+	width: 920px;
+	margin: 50px auto;
+}
+
+#conteudo{
+	width: 660px;
+	float: left;
+}
+
+.post {
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.data-post{
+	font-size: 12px;
+}
+
+.post img {
+ 	border: 5px solid #DCDCDC;
+  	max-width: 100%;
+  	height: auto;	
+}
+
+h2 {
+	padding: 10px;
+	text-align: center;
+}
+
+/*Menu Lateral*/
+
+#menu-lateral{
+	width: 240px;
+	float: right;
+}
+
+.area-aboutme {
+	padding: 25px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.img-aboutme {
+	border-radius: 50%;
+	max-width: 80%;
+  	height: auto;	
+}
+
+.img-contact {
+	border: 0 solid #FFFAFA;
+	max-width: 12%;
+  	height: auto;
+  	display: inline;
+  	margin: 0;
+  	padding: 12px;
+  	margin-bottom: 10px;
+}
+
+/*Formatação Rodape*/
+#rodape {
+	font-size: 12px;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+}
+
+
+/*Formatação Gerais*/
+
+
+ul  {
+	clear: both;
+	padding: 0;
+	list-style: none;
+  	float: right;
+}
